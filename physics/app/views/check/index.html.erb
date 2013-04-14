@@ -1,0 +1,22 @@
+<% if @count ==  0 %>
+  <p style="font-size:20px">您尚未预约任何实验！</p>
+<% else %>
+	<p style="font-size:16px">您的实验安排如下:</p>
+	  <table widtd="200px" border="1px" bordercolor="#000080">
+	    <tbody>
+	      <tr>
+		<td width="62px" align="center"><font color="#000080">实验</font></td>
+		<td width="62px" align="center"><font color="#000080">时间</font></td>
+	      </tr>
+		  <% for i in 1..@books.length %>
+		      <tr>
+			<td width="62px" align="center"><font color="#000080">实验<%=@books[i-1].experiment_id %></font></td>
+			<td width="62px" align="center"><font color="#000080"><%=@books[i-1].day %></font></td>
+		      </tr>
+				
+			
+		  <% end %>
+
+	    </tbody></table>
+
+<% end %>

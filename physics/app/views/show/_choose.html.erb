@@ -1,0 +1,10 @@
+<div class="choose">
+  <%= form_tag choose_path do %>
+    	<p text-align="center" style="margin:30px auto; font-size:15px">星期
+	<%=select_tag(:day, options_for_select(@available_choice)) %>
+	</p>
+	
+	<%=hidden_field_tag "order_id", @experiment.order_id %>
+	<%=submit_tag "提交" %>
+  <% end %>
+</div>

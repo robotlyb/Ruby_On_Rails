@@ -1,0 +1,25 @@
+<h1>Listing experiments</h1>
+
+<table>
+  <tr>
+    <th>Ext name</th>
+    <th>Order</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @experiments.each do |experiment| %>
+  <tr>
+    <td><%= experiment.ext_name %></td>
+    <td><%= experiment.order_id %></td>
+    <td><%= link_to 'Show', experiment %></td>
+    <td><%= link_to 'Edit', edit_experiment_path(experiment) %></td>
+    <td><%= link_to 'Destroy', experiment, :method => :delete, :data => { :confirm => 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Experiment', new_experiment_path %>

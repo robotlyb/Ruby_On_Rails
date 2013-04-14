@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Physics</title>
+  <%= stylesheet_link_tag     "style" %>
+  <%= javascript_include_tag "jquery" %>
+  <%= javascript_include_tag "jquery_ujs" %>
+  <%= csrf_meta_tags %>
+  
+</head>
+<body>
+  <div class="header"></div>
+  <% if(session[:user_id]) %>
+  <div class="welcome">
+    Welcome,<%=@user.name %>
+  </div>
+  <% end %>
+  <div class="content">
+    <div class="menubar">
+      <div class="mark">
+        <%=image_tag("/assets/ext_book.jpg", :size => "25x23") %>实验预约
+      </div>
+
+      <ul class="nav">
+        <li><a href="/home">实验预约</a></li>
+        <li><a href="/check/index">查询预约</a></li>
+        <li><a href="/cancel">取消预约</a></li>
+        <li><a href="#">查询成绩</a></li>
+        <li><a href="#">修改密码</a></li>
+        <li><a href="login">登录</a></li>		
+        <li><a href="logout">退出</a></li>
+      </ul>
+    </div><!--end sidebar -->
+    
+    <div class="vertical_line"></div>
+  
+    <%= yield %>
+  </div>
+    
+  <div class="footer">
+    <div class="line"></div>
+      <p > 
+	copyright&copy 哈尔滨工业大学物理实验中心
+      </p>
+      <p >地址：黑龙江省哈尔滨市南岗区西大直街92号 邮编：150001 电话：86414112</p>
+  </div> 
+    
+  
+
+</body>
+</html>

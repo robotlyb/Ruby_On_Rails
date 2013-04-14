@@ -1,0 +1,21 @@
+<tbody>
+  <tr>
+    <td width="352px" height="15px" bgcolor="#E7E7E7">
+      <%= form_tag('/show') do %>
+	<p text-align="center" style="margin:30px auto; font-size:15px">选取周次		
+	<%=select_tag(:week, options_for_select(@array), html_options = {:style => "margin:30px auto;font-size:15px"}) %></p>
+	
+	<p text-align="center" style="margin:30px auto; font-size:15px">选取实验		
+	
+	<%=select_tag(:order_id, options_for_select(@available_days), html_options = {:style => "margin:30px auto;font-size:15px"}) %>
+	</p>
+  
+	
+	<p text-align="center" style="margin:30px auto;font-size:15px">
+	<%=submit_tag "提交", html_options = {:style => "margin:5px auto; font-size:15px"} %>	
+	</p>
+
+      <% end %>
+    </td>
+  </tr>
+</tbody>

@@ -1,0 +1,106 @@
+	* {
+		margin:0;
+		padding:0;
+	}
+	body {
+		font:normal 12px/1.5em Verdana,Lucida, Arial, Helvetica, "宋体",sans-serif;
+	}
+	.header {
+		margin:0px auto;
+		width:761px;	
+		height:76px;
+		background: #00FF00 url(/assets/screenshot.jpg) no-repeat
+	}
+	.welcome {
+		margin:2px auto;
+		width:761px;
+		font-size:large;
+		text-align:right;
+		font-weight:bold;
+		color:purple;
+	}
+	.content {
+		margin:10px auto;
+		width:761px;
+	}
+	.menubar {
+		width:143px;
+		float:left;
+	}
+	.mark {
+		margin:10px 0;
+		color:rgb(85, 108, 138);
+		font-size: medium;
+		width:100%;
+	}
+	ul {
+		margin:5px auto;
+		border-bottom:1px solid rgb(85, 108, 138);
+		width:143px;
+	}
+	.nav li {
+		position:relative;
+		width:143px;
+		height:30px;
+	}/*li标签设置为左浮动，并设置其为相对布局*/
+	ul li a {
+		width:100%;
+		height:28px;
+		overflow:hidden;
+		line-height:30px;
+		border:1px solid rgb(85, 108, 138);
+		border-bottom:0 none;
+		text-decoration:none;
+		text-align:center;
+		color:purple;
+		display:block;
+	}/*定义锚标签的display为block，重新定义大小*/	
+	.menubar:after {
+		display:block;
+		visibility:hidden;
+		clear:both;
+		height:0;
+		line-height:0;
+		content:"";
+	}
+	.content .vertical_line {
+		width:7px;
+		height:300px;
+		margin:0 30px;
+		background-color:rgb(128, 128, 128);
+		display:block;
+		float:left;
+	}
+	.content .choose {
+		margin:20px 20px;
+		font-size:medium;
+	}
+	.content:after {
+		display:block;
+		visibility:hidden;
+		clear:both;
+		height:0;
+		line-height:0;
+		content:"";
+	}
+	.footer {
+		font-size:12px;	
+		margin:0 auto;
+		width:761px;
+	}
+	
+	.footer .line {
+		width:100%;
+		height:5px;
+		background-color:rgb(128, 128, 128);
+		margin:20px 0;
+		
+	}
+	.footer p {
+		text-align:center;	
+		font-size:13px;
+		font-weight:bold;
+	}	
+	
+	
+

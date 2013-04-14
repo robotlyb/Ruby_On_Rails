@@ -1,0 +1,15 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Ext name:</b>
+  <%= @experiment.ext_name %>
+</p>
+
+<p>
+  <b>Order:</b>
+  <%= @experiment.order_id %>
+</p>
+
+
+<%= link_to 'Edit', edit_experiment_path(@experiment) %> |
+<%= link_to 'Back', experiments_path %>

@@ -1,0 +1,30 @@
+<p style="color:rgb(0, 0, 128);font-size:medium">实验名称: (<%=@experiment.ext_name %>)  第(<%=@week %>)周</p>
+
+<table widtd="438px" border="1px" bordercolor="#000080">
+  <tbody>
+    <tr>
+      <td width="62px" align="center"><font color="#000080">星期</font></td>
+      <% @week_array.each do |week| %>
+	<td width="52" align="center">
+	    <font color="#000080"><%=week %></font>
+	</td>
+      <% end %>
+    </tr>
+    
+      <tr><td width="62px" align="center"><font color="#000080">剩余</font></td>
+		
+		<% for i in 1..7 do %> 
+		  <td width="52" align="center">
+		    <font color="#000080"><%= @rest_array[@day.at(i-1)] %></font> 
+		  </td>
+		
+		<% end %>
+
+      </tr>
+  </tbody>
+  
+</table>
+
+<%= render 'choose' %>
+
+
