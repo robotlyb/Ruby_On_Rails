@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Pragprog Books Online Store</title>
+<!-- START:stylesheet -->
+  
+  <%= stylesheet_link_tag "scaffold" %>
+  <%= stylesheet_link_tag "depot", :media => "all" %><!-- <label id="code.slt"/> -->
+<!-- END:stylesheet -->
+  <%= javascript_include_tag "application" %>
+  <%= javascript_include_tag "jquery.color" %>
+  <%= javascript_include_tag "jquery" %>
+  <%= javascript_include_tag "jquery_ujs" %>
+  
+  <%= csrf_meta_tag %><!-- <label id="code.csrf"/> -->
+</head>
+<body id="store">
+  <div id="banner">
+    <%= image_tag("/images/logo.png") %>
+    <%= @page_title || "Pragmatic Bookshelf" %><!-- <label id="code.depot.e.title"/> -->
+  </div>
+  <div id="columns">
+    <div id="side">
+  <% if @cart %>
+    <%= hidden_div_if(@cart.line_items.empty?, :id => "cart") do %>
+     <%= render @cart %>
+    <% end %>
+  <% end %>
+      
+      <a href="<%= store_path %>">Home</a><br />
+      <% unless(session[:user_id]) %>
+      <a href="<%= login_path %>">Login</a><br />
+      <a href="<%= new_user_path %>">Sign Up</a><br />
+      <% end %>
+      <a href="http://www..../contact">Contact</a><br />
+      <% if(session[:user_id]) %>
+	<br />
+	  <%= link_to "Orders", orders_path %><br /> 
+	  <%= link_to "Products", products_path %>
+	<br />
+	  
+	  <%= button_to "Logout", logout_path, :method => :delete %>
+      <% end %>
+    </div>
+    <div id="main">
+      <%= yield %><!-- <label id="code.depot.e.include"/> -->
+    </div>
+  </div>
+</body>
+</html>

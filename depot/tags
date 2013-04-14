@@ -1,0 +1,409 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ActiveSupport	test/test_helper.rb	/^class ActiveSupport::TestCase$/;"	c
+AddOrderIdToLineItem	db/migrate/20130407044424_add_order_id_to_line_item.rb	/^class AddOrderIdToLineItem < ActiveRecord::Migration$/;"	c
+AddQuantityToLineItems	db/migrate/20130406063219_add_quantity_to_line_items.rb	/^class AddQuantityToLineItems < ActiveRecord::Migration$/;"	c
+AdminController	app/controllers/admin_controller.rb	/^class AdminController < ApplicationController$/;"	c
+AdminControllerTest	test/functional/admin_controller_test.rb	/^class AdminControllerTest < ActionController::TestCase$/;"	c
+AdminHelper	app/helpers/admin_helper.rb	/^module AdminHelper$/;"	m
+AdminHelperTest	test/unit/helpers/admin_helper_test.rb	/^class AdminHelperTest < ActionView::TestCase$/;"	c
+Ajax.InPlaceCollectionEditor.DefaultOptions.loadingCollectionText	app/assets/javascripts/controls.js	/^  loadingCollectionText: 'Loading options...'$/;"	p
+Ajax.InPlaceCollectionEditor.DefaultOptions.loadingCollectionText	public/javascripts/controls.js	/^  loadingCollectionText: 'Loading options...'$/;"	p
+Ajax.InPlaceEditor	app/assets/javascripts/controls.js	/^Ajax.InPlaceEditor.prototype.initialize.dealWithDeprecatedOptions = function(options) {$/;"	c
+Ajax.InPlaceEditor	public/javascripts/controls.js	/^Ajax.InPlaceEditor.prototype.initialize.dealWithDeprecatedOptions = function(options) {$/;"	c
+Ajax.InPlaceEditor.initialize	app/assets/javascripts/controls.js	/^Ajax.InPlaceEditor.prototype.initialize.dealWithDeprecatedOptions = function(options) {$/;"	m
+Ajax.InPlaceEditor.initialize	public/javascripts/controls.js	/^Ajax.InPlaceEditor.prototype.initialize.dealWithDeprecatedOptions = function(options) {$/;"	m
+Animation	app/assets/javascripts/jquery.js	/^function Animation( elem, properties, options ) {$/;"	f
+Application	config/application.rb	/^  class Application < Rails::Application$/;"	c	class:Depot
+ApplicationController	app/controllers/application_controller.rb	/^class ApplicationController < ActionController::Base$/;"	c
+ApplicationHelper	app/helpers/application_helper.rb	/^module ApplicationHelper$/;"	m
+Autocompleter.Base	app/assets/javascripts/controls.js	/^Autocompleter.Base.prototype.getTokenBounds.getFirstDifferencePos = function(newS, oldS) {$/;"	c
+Autocompleter.Base	public/javascripts/controls.js	/^Autocompleter.Base.prototype.getTokenBounds.getFirstDifferencePos = function(newS, oldS) {$/;"	c
+Autocompleter.Base.getTokenBounds	app/assets/javascripts/controls.js	/^Autocompleter.Base.prototype.getTokenBounds.getFirstDifferencePos = function(newS, oldS) {$/;"	m
+Autocompleter.Base.getTokenBounds	public/javascripts/controls.js	/^Autocompleter.Base.prototype.getTokenBounds.getFirstDifferencePos = function(newS, oldS) {$/;"	m
+BrowsingTest	test/performance/browsing_test.rb	/^class BrowsingTest < ActionDispatch::PerformanceTest$/;"	c
+Cart	app/models/cart.rb	/^class Cart < ActiveRecord::Base$/;"	c
+CartTest	test/unit/cart_test.rb	/^class CartTest < ActiveSupport::TestCase$/;"	c
+CartsController	app/controllers/carts_controller.rb	/^class CartsController < ApplicationController$/;"	c
+CartsControllerTest	test/functional/carts_controller_test.rb	/^class CartsControllerTest < ActionController::TestCase$/;"	c
+CartsHelper	app/helpers/carts_helper.rb	/^module CartsHelper$/;"	m
+CartsHelperTest	test/unit/helpers/carts_helper_test.rb	/^class CartsHelperTest < ActionView::TestCase$/;"	c
+CombineItemsInCart	db/migrate/20130406070419_combine_items_in_cart.rb	/^class CombineItemsInCart < ActiveRecord::Migration$/;"	c
+CreateCarts	db/migrate/20130406042847_create_carts.rb	/^class CreateCarts < ActiveRecord::Migration$/;"	c
+CreateLineItems	db/migrate/20130406043944_create_line_items.rb	/^class CreateLineItems < ActiveRecord::Migration$/;"	c
+CreateOrders	db/migrate/20130407044315_create_orders.rb	/^class CreateOrders < ActiveRecord::Migration$/;"	c
+CreateProducts	db/migrate/20130406011527_create_products.rb	/^class CreateProducts < ActiveRecord::Migration$/;"	c
+CreateUsers	db/migrate/20130407082412_create_users.rb	/^class CreateUsers < ActiveRecord::Migration$/;"	c
+Depot	config/application.rb	/^module Depot$/;"	m
+Draggable	app/assets/javascripts/dragdrop.js	/^var Draggable = Class.create({$/;"	v
+Draggable	public/javascripts/dragdrop.js	/^var Draggable = Class.create({$/;"	v
+Draggables.drags	app/assets/javascripts/dragdrop.js	/^  drags: [],$/;"	p
+Draggables.drags	public/javascripts/dragdrop.js	/^  drags: [],$/;"	p
+Droppables.drops	app/assets/javascripts/dragdrop.js	/^  drops: [],$/;"	p
+Droppables.drops	public/javascripts/dragdrop.js	/^  drops: [],$/;"	p
+Effect.Appear	app/assets/javascripts/effects.js	/^Effect.Appear = function(element) {$/;"	f
+Effect.Appear	public/javascripts/effects.js	/^Effect.Appear = function(element) {$/;"	f
+Effect.BlindDown	app/assets/javascripts/effects.js	/^Effect.BlindDown = function(element) {$/;"	f
+Effect.BlindDown	public/javascripts/effects.js	/^Effect.BlindDown = function(element) {$/;"	f
+Effect.BlindUp	app/assets/javascripts/effects.js	/^Effect.BlindUp = function(element) {$/;"	f
+Effect.BlindUp	public/javascripts/effects.js	/^Effect.BlindUp = function(element) {$/;"	f
+Effect.DropOut	app/assets/javascripts/effects.js	/^Effect.DropOut = function(element) {$/;"	f
+Effect.DropOut	public/javascripts/effects.js	/^Effect.DropOut = function(element) {$/;"	f
+Effect.DropOut.oldStyle.top	app/assets/javascripts/effects.js	/^    top: element.getStyle('top'),$/;"	p
+Effect.DropOut.oldStyle.top	public/javascripts/effects.js	/^    top: element.getStyle('top'),$/;"	p
+Effect.Fade	app/assets/javascripts/effects.js	/^Effect.Fade = function(element) {$/;"	f
+Effect.Fade	public/javascripts/effects.js	/^Effect.Fade = function(element) {$/;"	f
+Effect.Fold	app/assets/javascripts/effects.js	/^Effect.Fold = function(element) {$/;"	f
+Effect.Fold	public/javascripts/effects.js	/^Effect.Fold = function(element) {$/;"	f
+Effect.Fold.oldStyle.top	app/assets/javascripts/effects.js	/^    top: element.style.top,$/;"	p
+Effect.Fold.oldStyle.top	public/javascripts/effects.js	/^    top: element.style.top,$/;"	p
+Effect.Grow	app/assets/javascripts/effects.js	/^Effect.Grow = function(element) {$/;"	f
+Effect.Grow	public/javascripts/effects.js	/^Effect.Grow = function(element) {$/;"	f
+Effect.Grow.oldStyle.top	app/assets/javascripts/effects.js	/^    top: element.style.top,$/;"	p
+Effect.Grow.oldStyle.top	public/javascripts/effects.js	/^    top: element.style.top,$/;"	p
+Effect.Methods.highlight	app/assets/javascripts/effects.js	/^  highlight: function(element, options) {$/;"	m
+Effect.Methods.highlight	public/javascripts/effects.js	/^  highlight: function(element, options) {$/;"	m
+Effect.Methods.morph	app/assets/javascripts/effects.js	/^  morph: function(element, style) {$/;"	m
+Effect.Methods.morph	public/javascripts/effects.js	/^  morph: function(element, style) {$/;"	m
+Effect.Methods.visualEffect	app/assets/javascripts/effects.js	/^  visualEffect: function(element, effect, options) {$/;"	m
+Effect.Methods.visualEffect	public/javascripts/effects.js	/^  visualEffect: function(element, effect, options) {$/;"	m
+Effect.MoveBy	app/assets/javascripts/effects.js	/^Effect.MoveBy = function(element, toTop, toLeft) {$/;"	f
+Effect.MoveBy	public/javascripts/effects.js	/^Effect.MoveBy = function(element, toTop, toLeft) {$/;"	f
+Effect.Puff	app/assets/javascripts/effects.js	/^Effect.Puff = function(element) {$/;"	f
+Effect.Puff	public/javascripts/effects.js	/^Effect.Puff = function(element) {$/;"	f
+Effect.Puff.oldStyle.opacity	app/assets/javascripts/effects.js	/^    opacity: element.getInlineOpacity(),$/;"	p
+Effect.Puff.oldStyle.opacity	public/javascripts/effects.js	/^    opacity: element.getInlineOpacity(),$/;"	p
+Effect.Pulsate	app/assets/javascripts/effects.js	/^Effect.Pulsate = function(element) {$/;"	f
+Effect.Pulsate	public/javascripts/effects.js	/^Effect.Pulsate = function(element) {$/;"	f
+Effect.Queues.instances	app/assets/javascripts/effects.js	/^  instances: $H(),$/;"	p
+Effect.Queues.instances	public/javascripts/effects.js	/^  instances: $H(),$/;"	p
+Effect.ScrollTo	app/assets/javascripts/effects.js	/^Effect.ScrollTo = function(element) {$/;"	f
+Effect.ScrollTo	public/javascripts/effects.js	/^Effect.ScrollTo = function(element) {$/;"	f
+Effect.Shake	app/assets/javascripts/effects.js	/^Effect.Shake = function(element) {$/;"	f
+Effect.Shake	public/javascripts/effects.js	/^Effect.Shake = function(element) {$/;"	f
+Effect.Shake.oldStyle.top	app/assets/javascripts/effects.js	/^    top: element.getStyle('top'),$/;"	p
+Effect.Shake.oldStyle.top	public/javascripts/effects.js	/^    top: element.getStyle('top'),$/;"	p
+Effect.Shrink	app/assets/javascripts/effects.js	/^Effect.Shrink = function(element) {$/;"	f
+Effect.Shrink	public/javascripts/effects.js	/^Effect.Shrink = function(element) {$/;"	f
+Effect.Shrink.oldStyle.top	app/assets/javascripts/effects.js	/^    top: element.style.top,$/;"	p
+Effect.Shrink.oldStyle.top	public/javascripts/effects.js	/^    top: element.style.top,$/;"	p
+Effect.SlideDown	app/assets/javascripts/effects.js	/^Effect.SlideDown = function(element) {$/;"	f
+Effect.SlideDown	public/javascripts/effects.js	/^Effect.SlideDown = function(element) {$/;"	f
+Effect.SlideUp	app/assets/javascripts/effects.js	/^Effect.SlideUp = function(element) {$/;"	f
+Effect.SlideUp	public/javascripts/effects.js	/^Effect.SlideUp = function(element) {$/;"	f
+Effect.Squish	app/assets/javascripts/effects.js	/^Effect.Squish = function(element) {$/;"	f
+Effect.Squish	public/javascripts/effects.js	/^Effect.Squish = function(element) {$/;"	f
+Effect.SwitchOff	app/assets/javascripts/effects.js	/^Effect.SwitchOff = function(element) {$/;"	f
+Effect.SwitchOff	public/javascripts/effects.js	/^Effect.SwitchOff = function(element) {$/;"	f
+Element.collectTextNodes	app/assets/javascripts/effects.js	/^Element.collectTextNodes = function(element) {$/;"	f
+Element.collectTextNodes	public/javascripts/effects.js	/^Element.collectTextNodes = function(element) {$/;"	f
+Element.collectTextNodesIgnoreClass	app/assets/javascripts/effects.js	/^Element.collectTextNodesIgnoreClass = function(element, className) {$/;"	f
+Element.collectTextNodesIgnoreClass	public/javascripts/effects.js	/^Element.collectTextNodesIgnoreClass = function(element, className) {$/;"	f
+Element.findChildren	app/assets/javascripts/dragdrop.js	/^Element.findChildren = function(element, only, recursive, tagName) {$/;"	f
+Element.findChildren	public/javascripts/dragdrop.js	/^Element.findChildren = function(element, only, recursive, tagName) {$/;"	f
+Element.forceRerendering	app/assets/javascripts/effects.js	/^Element.forceRerendering = function(element) {$/;"	f
+Element.forceRerendering	public/javascripts/effects.js	/^Element.forceRerendering = function(element) {$/;"	f
+Element.getInlineOpacity	app/assets/javascripts/effects.js	/^Element.getInlineOpacity = function(element){$/;"	f
+Element.getInlineOpacity	public/javascripts/effects.js	/^Element.getInlineOpacity = function(element){$/;"	f
+Element.getStyles	app/assets/javascripts/effects.js	/^  Element.getStyles = function(element) {$/;"	f
+Element.getStyles	public/javascripts/effects.js	/^  Element.getStyles = function(element) {$/;"	f
+Element.isParent	app/assets/javascripts/dragdrop.js	/^Element.isParent = function(child, element) {$/;"	f
+Element.isParent	public/javascripts/dragdrop.js	/^Element.isParent = function(child, element) {$/;"	f
+Element.offsetSize	app/assets/javascripts/dragdrop.js	/^Element.offsetSize = function (element, type) {$/;"	f
+Element.offsetSize	public/javascripts/dragdrop.js	/^Element.offsetSize = function (element, type) {$/;"	f
+Element.setContentZoom	app/assets/javascripts/effects.js	/^Element.setContentZoom = function(element, percent) {$/;"	f
+Element.setContentZoom	public/javascripts/effects.js	/^Element.setContentZoom = function(element, percent) {$/;"	f
+Field.scrollFreeActivate	app/assets/javascripts/controls.js	/^Field.scrollFreeActivate = function(field) {$/;"	f
+Field.scrollFreeActivate	public/javascripts/controls.js	/^Field.scrollFreeActivate = function(field) {$/;"	f
+LineItem	app/models/line_item.rb	/^class LineItem < ActiveRecord::Base$/;"	c
+LineItemTest	test/unit/line_item_test.rb	/^class LineItemTest < ActiveSupport::TestCase$/;"	c
+LineItemsController	app/controllers/line_items_controller.rb	/^class LineItemsController < ApplicationController$/;"	c
+LineItemsControllerTest	test/functional/line_items_controller_test.rb	/^class LineItemsControllerTest < ActionController::TestCase$/;"	c
+LineItemsHelper	app/helpers/line_items_helper.rb	/^module LineItemsHelper$/;"	m
+LineItemsHelperTest	test/unit/helpers/line_items_helper_test.rb	/^class LineItemsHelperTest < ActionView::TestCase$/;"	c
+Order	app/models/order.rb	/^class Order < ActiveRecord::Base$/;"	c
+OrderTest	test/unit/order_test.rb	/^class OrderTest < ActiveSupport::TestCase$/;"	c
+OrdersController	app/controllers/orders_controller.rb	/^class OrdersController < ApplicationController$/;"	c
+OrdersControllerTest	test/functional/orders_controller_test.rb	/^class OrdersControllerTest < ActionController::TestCase$/;"	c
+OrdersHelper	app/helpers/orders_helper.rb	/^module OrdersHelper$/;"	m
+OrdersHelperTest	test/unit/helpers/orders_helper_test.rb	/^class OrdersHelperTest < ActionView::TestCase$/;"	c
+Product	app/models/product.rb	/^class Product < ActiveRecord::Base$/;"	c
+ProductTest	test/unit/product_test.rb	/^class ProductTest < ActiveSupport::TestCase$/;"	c
+ProductsController	app/controllers/products_controller.rb	/^class ProductsController < ApplicationController$/;"	c
+ProductsControllerTest	test/functional/products_controller_test.rb	/^class ProductsControllerTest < ActionController::TestCase$/;"	c
+ProductsHelper	app/helpers/products_helper.rb	/^module ProductsHelper$/;"	m
+ProductsHelperTest	test/unit/helpers/products_helper_test.rb	/^class ProductsHelperTest < ActionView::TestCase$/;"	c
+Prototype.Browser	app/assets/javascripts/prototype.js	/^  Browser: (function(){$/;"	p
+Prototype.Browser	public/javascripts/prototype.js	/^  Browser: (function(){$/;"	p
+Prototype.Version	app/assets/javascripts/prototype.js	/^  Version: '1.7_rc2',$/;"	p
+Prototype.Version	public/javascripts/prototype.js	/^  Version: '1.7_rc2',$/;"	p
+SessionsController	app/controllers/sessions_controller.rb	/^class SessionsController < ApplicationController$/;"	c
+SessionsControllerTest	test/functional/sessions_controller_test.rb	/^class SessionsControllerTest < ActionController::TestCase$/;"	c
+SessionsHelper	app/helpers/sessions_helper.rb	/^module SessionsHelper$/;"	m
+SessionsHelperTest	test/unit/helpers/sessions_helper_test.rb	/^class SessionsHelperTest < ActionView::TestCase$/;"	c
+Sortable.SERIALIZE_RULE	app/assets/javascripts/dragdrop.js	/^  SERIALIZE_RULE: \/^[^_\\-](?:[A-Za-z0-9\\-\\_]*)[_](.*)$\/,$/;"	p
+Sortable.SERIALIZE_RULE	public/javascripts/dragdrop.js	/^  SERIALIZE_RULE: \/^[^_\\-](?:[A-Za-z0-9\\-\\_]*)[_](.*)$\/,$/;"	p
+SortableObserver	app/assets/javascripts/dragdrop.js	/^var SortableObserver = Class.create({$/;"	v
+SortableObserver	public/javascripts/dragdrop.js	/^var SortableObserver = Class.create({$/;"	v
+StoreController	app/controllers/store_controller.rb	/^class StoreController < ApplicationController$/;"	c
+StoreControllerTest	test/functional/store_controller_test.rb	/^class StoreControllerTest < ActionController::TestCase$/;"	c
+StoreHelper	app/helpers/store_helper.rb	/^module StoreHelper$/;"	m
+StoreHelperTest	test/unit/helpers/store_helper_test.rb	/^class StoreHelperTest < ActionView::TestCase$/;"	c
+Str	app/assets/javascripts/prototype.js	/^  function Str(key, holder, stack) {$/;"	f
+Str	public/javascripts/prototype.js	/^  function Str(key, holder, stack) {$/;"	f
+String	app/assets/javascripts/effects.js	/^String.prototype.parseColor = function() {$/;"	c
+String	public/javascripts/effects.js	/^String.prototype.parseColor = function() {$/;"	c
+String.parseColor	app/assets/javascripts/effects.js	/^String.prototype.parseColor = function() {$/;"	m
+String.parseColor	public/javascripts/effects.js	/^String.prototype.parseColor = function() {$/;"	m
+String.parseStyle	app/assets/javascripts/effects.js	/^String.prototype.parseStyle = function(){$/;"	m
+String.parseStyle	public/javascripts/effects.js	/^String.prototype.parseStyle = function(){$/;"	m
+Try.these	app/assets/javascripts/prototype.js	/^  these: function() {$/;"	m
+Try.these	public/javascripts/prototype.js	/^  these: function() {$/;"	m
+Tween	app/assets/javascripts/jquery.js	/^Tween.prototype = {$/;"	c
+Tween	app/assets/javascripts/jquery.js	/^function Tween( elem, options, prop, end, easing ) {$/;"	f
+Tween.constructor	app/assets/javascripts/jquery.js	/^	constructor: Tween,$/;"	p
+Tween.cur	app/assets/javascripts/jquery.js	/^	cur: function() {$/;"	m
+Tween.init	app/assets/javascripts/jquery.js	/^	init: function( elem, options, prop, end, easing, unit ) {$/;"	m
+Tween.init	app/assets/javascripts/jquery.js	/^Tween.prototype.init.prototype = Tween.prototype;$/;"	m
+Tween.propHooks._default	app/assets/javascripts/jquery.js	/^	_default: {$/;"	p
+Tween.run	app/assets/javascripts/jquery.js	/^	run: function( percent ) {$/;"	m
+Type	app/assets/javascripts/prototype.js	/^  function Type(o) {$/;"	f
+Type	public/javascripts/prototype.js	/^  function Type(o) {$/;"	f
+User	app/models/user.rb	/^class User < ActiveRecord::Base$/;"	c
+UserTest	test/unit/user_test.rb	/^class UserTest < ActiveSupport::TestCase$/;"	c
+UsersController	app/controllers/users_controller.rb	/^class UsersController < ApplicationController$/;"	c
+UsersControllerTest	test/functional/users_controller_test.rb	/^class UsersControllerTest < ActionController::TestCase$/;"	c
+UsersHelper	app/helpers/users_helper.rb	/^module UsersHelper$/;"	m
+UsersHelperTest	test/unit/helpers/users_helper_test.rb	/^class UsersHelperTest < ActionView::TestCase$/;"	c
+actualDisplay	app/assets/javascripts/jquery.js	/^function actualDisplay( name, doc ) {$/;"	f
+addToPrefiltersOrTransports	app/assets/javascripts/jquery.js	/^function addToPrefiltersOrTransports( structure ) {$/;"	f
+add_line_items_from_cart	app/models/order.rb	/^  def add_line_items_from_cart(cart)$/;"	f	class:Order
+add_product	app/models/cart.rb	/^  def add_product(product_id)$/;"	f	class:Cart
+ajaxConvert	app/assets/javascripts/jquery.js	/^function ajaxConvert( s, response ) {$/;"	f
+ajaxExtend	app/assets/javascripts/jquery.js	/^function ajaxExtend( target, src ) {$/;"	f
+ajaxHandleResponses	app/assets/javascripts/jquery.js	/^function ajaxHandleResponses( s, jqXHR, responses ) {$/;"	f
+augmentWidthOrHeight	app/assets/javascripts/jquery.js	/^function augmentWidthOrHeight( elem, name, extra, isBorderBox, styles ) {$/;"	f
+authenticate	app/controllers/application_controller.rb	/^    def authenticate$/;"	f	class:ApplicationController
+authenticate	app/models/user.rb	/^  def User.authenticate(name, password)$/;"	F	class:User
+buildParams	app/assets/javascripts/jquery.js	/^function buildParams( prefix, obj, traditional, add ) {$/;"	f
+byte	app/assets/javascripts/jquery.color.js	/^		"byte": {$/;"	p
+change	db/migrate/20130406011527_create_products.rb	/^  def change$/;"	f	class:CreateProducts
+change	db/migrate/20130406042847_create_carts.rb	/^  def change$/;"	f	class:CreateCarts
+change	db/migrate/20130406043944_create_line_items.rb	/^  def change$/;"	f	class:CreateLineItems
+change	db/migrate/20130406063219_add_quantity_to_line_items.rb	/^  def change$/;"	f	class:AddQuantityToLineItems
+change	db/migrate/20130407044315_create_orders.rb	/^  def change$/;"	f	class:CreateOrders
+change	db/migrate/20130407044424_add_order_id_to_line_item.rb	/^  def change$/;"	f	class:AddOrderIdToLineItem
+change	db/migrate/20130407082412_create_users.rb	/^  def change$/;"	f	class:CreateUsers
+child.id	app/assets/javascripts/dragdrop.js	/^        id: encodeURIComponent(match ? match[1] : null),$/;"	p
+child.id	public/javascripts/dragdrop.js	/^        id: encodeURIComponent(match ? match[1] : null),$/;"	p
+clamp	app/assets/javascripts/jquery.color.js	/^function clamp( value, prop, allowEmpty ) {$/;"	f
+clone	app/assets/javascripts/prototype.js	/^  function clone(object) {$/;"	f
+clone	public/javascripts/prototype.js	/^  function clone(object) {$/;"	f
+cloneCopyEvent	app/assets/javascripts/jquery.js	/^function cloneCopyEvent( src, dest ) {$/;"	f
+color.fn.parse	app/assets/javascripts/jquery.color.js	/^color.fn.parse.prototype = color.fn;$/;"	c
+color.hook	app/assets/javascripts/jquery.color.js	/^color.hook = function( hook ) {$/;"	f
+create	app/controllers/carts_controller.rb	/^  def create$/;"	f	class:CartsController
+create	app/controllers/line_items_controller.rb	/^  def create$/;"	f	class:LineItemsController
+create	app/controllers/orders_controller.rb	/^  def create$/;"	f	class:OrdersController
+create	app/controllers/products_controller.rb	/^  def create$/;"	f	class:ProductsController
+create	app/controllers/sessions_controller.rb	/^  def create$/;"	f	class:SessionsController
+create	app/controllers/users_controller.rb	/^  def create$/;"	f	class:UsersController
+createActiveXHR	app/assets/javascripts/jquery.js	/^function createActiveXHR() {$/;"	f
+createFxNow	app/assets/javascripts/jquery.js	/^function createFxNow() {$/;"	f
+createSafeFragment	app/assets/javascripts/jquery.js	/^function createSafeFragment( document ) {$/;"	f
+createStandardXHR	app/assets/javascripts/jquery.js	/^function createStandardXHR() {$/;"	f
+createTweens	app/assets/javascripts/jquery.js	/^function createTweens( animation, props ) {$/;"	f
+css_defaultDisplay	app/assets/javascripts/jquery.js	/^function css_defaultDisplay( nodeName ) {$/;"	f
+curCSS	app/assets/javascripts/jquery.js	/^	curCSS = function( elem, name, _computed ) {$/;"	f
+current_cart	app/controllers/application_controller.rb	/^    def current_cart $/;"	f	class:ApplicationController
+dataType	app/assets/javascripts/jquery.js	/^		var dataType,$/;"	v
+defaultPrefilter	app/assets/javascripts/jquery.js	/^function defaultPrefilter( elem, props, opts ) {$/;"	f
+destroy	app/controllers/carts_controller.rb	/^  def destroy$/;"	f	class:CartsController
+destroy	app/controllers/line_items_controller.rb	/^  def destroy$/;"	f	class:LineItemsController
+destroy	app/controllers/orders_controller.rb	/^  def destroy$/;"	f	class:OrdersController
+destroy	app/controllers/products_controller.rb	/^  def destroy$/;"	f	class:ProductsController
+destroy	app/controllers/sessions_controller.rb	/^  def destroy$/;"	f	class:SessionsController
+destroy	app/controllers/users_controller.rb	/^  def destroy$/;"	f	class:UsersController
+disableScript	app/assets/javascripts/jquery.js	/^function disableScript( elem ) {$/;"	f
+display	app/assets/javascripts/jquery.js	/^	cssShow = { position: "absolute", visibility: "hidden", display: "block" },$/;"	p
+down	db/migrate/20130406070419_combine_items_in_cart.rb	/^  def down$/;"	f	class:CombineItemsInCart
+drop	app/assets/javascripts/dragdrop.js	/^    var drop, affected = [];$/;"	v
+drop	public/javascripts/dragdrop.js	/^    var drop, affected = [];$/;"	v
+droponOptions	app/assets/javascripts/dragdrop.js	/^    var droponOptions = Sortable.options(dropon);$/;"	v
+droponOptions	public/javascripts/dragdrop.js	/^    var droponOptions = Sortable.options(dropon);$/;"	v
+edit	app/controllers/carts_controller.rb	/^  def edit$/;"	f	class:CartsController
+edit	app/controllers/line_items_controller.rb	/^  def edit$/;"	f	class:LineItemsController
+edit	app/controllers/orders_controller.rb	/^  def edit$/;"	f	class:OrdersController
+edit	app/controllers/products_controller.rb	/^  def edit$/;"	f	class:ProductsController
+edit	app/controllers/users_controller.rb	/^  def edit$/;"	f	class:UsersController
+encrypt_password	app/models/user.rb	/^  def User.encrypt_password(password, salt)$/;"	F	class:User
+ensure_not_referenced_by_any_line_item	app/models/product.rb	/^    def ensure_not_referenced_by_any_line_item$/;"	f	class:Product
+extend	app/assets/javascripts/prototype.js	/^  function extend(destination, source) {$/;"	f
+extend	public/javascripts/prototype.js	/^  function extend(destination, source) {$/;"	f
+findOrAppend	app/assets/javascripts/jquery.js	/^function findOrAppend( elem, tag ) {$/;"	f
+fixCloneNodeIssues	app/assets/javascripts/jquery.js	/^function fixCloneNodeIssues( src, dest ) {$/;"	f
+fixDefaultChecked	app/assets/javascripts/jquery.js	/^function fixDefaultChecked( elem ) {$/;"	f
+fontWeight	app/assets/javascripts/jquery.js	/^		fontWeight: 400$/;"	p
+function.handleMethod	app/assets/javascripts/rails.js	/^  function handleMethod(element) {$/;"	f
+function.handleMethod	public/javascripts/rails.js	/^  function handleMethod(element) {$/;"	f
+function.handleRemote	app/assets/javascripts/rails.js	/^  function handleRemote(element) {$/;"	f
+function.handleRemote	public/javascripts/rails.js	/^  function handleRemote(element) {$/;"	f
+genFx	app/assets/javascripts/jquery.js	/^function genFx( type, includeWidth ) {$/;"	f
+genFx.which.height	app/assets/javascripts/jquery.js	/^		attrs = { height: type },$/;"	p
+generate_salt	app/models/user.rb	/^    def generate_salt$/;"	f	class:User
+getAll	app/assets/javascripts/jquery.js	/^function getAll( context, tag ) {$/;"	f
+getStyles	app/assets/javascripts/jquery.js	/^	getStyles = function( elem ) {$/;"	f
+getWidthOrHeight	app/assets/javascripts/jquery.js	/^function getWidthOrHeight( elem, name, extra ) {$/;"	f
+getWindow	app/assets/javascripts/jquery.js	/^function getWindow( elem ) {$/;"	f
+hidden_div_if	app/helpers/application_helper.rb	/^  def hidden_div_if(condition, attributes = {}, &block)$/;"	f	class:ApplicationHelper
+hooks.empty.fire	app/assets/javascripts/jquery.js	/^			hooks.empty.fire = function() {$/;"	f
+hue2rgb	app/assets/javascripts/jquery.color.js	/^function hue2rgb( p, q, h ) {$/;"	f
+index	app/controllers/admin_controller.rb	/^  def index$/;"	f	class:AdminController
+index	app/controllers/carts_controller.rb	/^  def index$/;"	f	class:CartsController
+index	app/controllers/line_items_controller.rb	/^  def index$/;"	f	class:LineItemsController
+index	app/controllers/orders_controller.rb	/^  def index$/;"	f	class:OrdersController
+index	app/controllers/products_controller.rb	/^  def index$/;"	f	class:ProductsController
+index	app/controllers/store_controller.rb	/^  def index$/;"	f	class:StoreController
+index	app/controllers/users_controller.rb	/^  def index$/;"	f	class:UsersController
+inspect	app/assets/javascripts/prototype.js	/^  function inspect(object) {$/;"	f
+inspect	public/javascripts/prototype.js	/^  function inspect(object) {$/;"	f
+inspectPrefiltersOrTransports	app/assets/javascripts/jquery.js	/^function inspectPrefiltersOrTransports( structure, options, originalOptions, jqXHR ) {$/;"	f
+inspectPrefiltersOrTransports.inspect	app/assets/javascripts/jquery.js	/^	function inspect( dataType ) {$/;"	f
+isArray	app/assets/javascripts/prototype.js	/^  function isArray(object) {$/;"	f
+isArray	public/javascripts/prototype.js	/^  function isArray(object) {$/;"	f
+isElement	app/assets/javascripts/prototype.js	/^  function isElement(object) {$/;"	f
+isElement	public/javascripts/prototype.js	/^  function isElement(object) {$/;"	f
+isForm.isInput.Event.Handler	app/assets/javascripts/rails.js	/^    Event.Handler.prototype.initialize = Event.Handler.prototype.initialize.wrap($/;"	c
+isForm.isInput.Event.Handler	public/javascripts/rails.js	/^    Event.Handler.prototype.initialize = Event.Handler.prototype.initialize.wrap($/;"	c
+isForm.isInput.isForm.isInput.Event.Handler.initialize	app/assets/javascripts/rails.js	/^    Event.Handler.prototype.initialize = Event.Handler.prototype.initialize.wrap($/;"	m
+isForm.isInput.isForm.isInput.Event.Handler.initialize	public/javascripts/rails.js	/^    Event.Handler.prototype.initialize = Event.Handler.prototype.initialize.wrap($/;"	m
+isFunction	app/assets/javascripts/prototype.js	/^  function isFunction(object) {$/;"	f
+isFunction	public/javascripts/prototype.js	/^  function isFunction(object) {$/;"	f
+isHash	app/assets/javascripts/prototype.js	/^  function isHash(object) {$/;"	f
+isHash	public/javascripts/prototype.js	/^  function isHash(object) {$/;"	f
+isHidden	app/assets/javascripts/jquery.js	/^function isHidden( elem, el ) {$/;"	f
+isNumber	app/assets/javascripts/prototype.js	/^  function isNumber(object) {$/;"	f
+isNumber	public/javascripts/prototype.js	/^  function isNumber(object) {$/;"	f
+isString	app/assets/javascripts/prototype.js	/^  function isString(object) {$/;"	f
+isString	public/javascripts/prototype.js	/^  function isString(object) {$/;"	f
+isUndefined	app/assets/javascripts/prototype.js	/^  function isUndefined(object) {$/;"	f
+isUndefined	public/javascripts/prototype.js	/^  function isUndefined(object) {$/;"	f
+jQuery.cssHooks.borderColor.expand	app/assets/javascripts/jquery.color.js	/^	expand: function( value ) {$/;"	m
+jQuery.cssHooks.opacity.get	app/assets/javascripts/jquery.js	/^		get: function( elem, computed ) {$/;"	m
+jQuery.cssHooks.opacity.set	app/assets/javascripts/jquery.js	/^		set: function( elem, value ) {$/;"	m
+jQuery.easing.linear	app/assets/javascripts/jquery.js	/^	linear: function( p ) {$/;"	m
+jQuery.easing.swing	app/assets/javascripts/jquery.js	/^	swing: function( p ) {$/;"	m
+jQuery.expr.filters.animated	app/assets/javascripts/jquery.js	/^	jQuery.expr.filters.animated = function( elem ) {$/;"	f
+jQuery.expr.filters.hidden	app/assets/javascripts/jquery.js	/^	jQuery.expr.filters.hidden = function( elem ) {$/;"	f
+jQuery.expr.filters.visible	app/assets/javascripts/jquery.js	/^	jQuery.expr.filters.visible = function( elem ) {$/;"	f
+jQuery.fn.hover	app/assets/javascripts/jquery.js	/^jQuery.fn.hover = function( fnOver, fnOut ) {$/;"	f
+jQuery.fn.load	app/assets/javascripts/jquery.js	/^jQuery.fn.load = function( url, params, callback ) {$/;"	f
+jQuery.fn.offset	app/assets/javascripts/jquery.js	/^jQuery.fn.offset = function( options ) {$/;"	f
+jQuery.fn.offset.docElem.left	app/assets/javascripts/jquery.js	/^		box = { top: 0, left: 0 },$/;"	p
+jQuery.fn.offset.docElem.top	app/assets/javascripts/jquery.js	/^		box = { top: 0, left: 0 },$/;"	p
+jQuery.fx.speeds._default	app/assets/javascripts/jquery.js	/^	_default: 400$/;"	p
+jQuery.fx.speeds.fast	app/assets/javascripts/jquery.js	/^	fast: 200,$/;"	p
+jQuery.fx.speeds.slow	app/assets/javascripts/jquery.js	/^	slow: 600,$/;"	p
+jQuery.fx.start	app/assets/javascripts/jquery.js	/^jQuery.fx.start = function() {$/;"	f
+jQuery.fx.stop	app/assets/javascripts/jquery.js	/^jQuery.fx.stop = function() {$/;"	f
+jQuery.fx.tick	app/assets/javascripts/jquery.js	/^jQuery.fx.tick = function() {$/;"	f
+jQuery.fx.timer	app/assets/javascripts/jquery.js	/^jQuery.fx.timer = function( timer ) {$/;"	f
+jQuery.offset.setOffset	app/assets/javascripts/jquery.js	/^	setOffset: function( elem, options, i ) {$/;"	m
+jQuery.param	app/assets/javascripts/jquery.js	/^jQuery.param = function( a, traditional ) {$/;"	f
+jQuery.speed	app/assets/javascripts/jquery.js	/^jQuery.speed = function( speed, easing, fn ) {$/;"	f
+jqxhr	app/assets/javascripts/jquery_ujs.js	/^        var jqxhr = rails.ajax(options);$/;"	v
+keys	app/assets/javascripts/prototype.js	/^  function keys(object) {$/;"	f
+keys	public/javascripts/prototype.js	/^  function keys(object) {$/;"	f
+letterSpacing	app/assets/javascripts/jquery.js	/^		letterSpacing: 0,$/;"	p
+masterDelay	app/assets/javascripts/effects.js	/^    var masterDelay = options.delay;$/;"	v
+masterDelay	public/javascripts/effects.js	/^    var masterDelay = options.delay;$/;"	v
+name	app/assets/javascripts/dragdrop.js	/^    var name = encodeURIComponent($/;"	v
+name	public/javascripts/dragdrop.js	/^    var name = encodeURIComponent($/;"	v
+new	app/controllers/carts_controller.rb	/^  def new$/;"	f	class:CartsController
+new	app/controllers/line_items_controller.rb	/^  def new$/;"	f	class:LineItemsController
+new	app/controllers/orders_controller.rb	/^  def new$/;"	f	class:OrdersController
+new	app/controllers/products_controller.rb	/^  def new$/;"	f	class:ProductsController
+new	app/controllers/sessions_controller.rb	/^  def new$/;"	f	class:SessionsController
+new	app/controllers/users_controller.rb	/^  def new$/;"	f	class:UsersController
+new_product	test/unit/product_test.rb	/^  def new_product(image_url)$/;"	f
+nodeMap	app/assets/javascripts/dragdrop.js	/^    var nodeMap = { };$/;"	v
+nodeMap	public/javascripts/dragdrop.js	/^    var nodeMap = { };$/;"	v
+nodeNames	app/assets/javascripts/jquery.js	/^var nodeNames = "abbr|article|aside|audio|bdi|canvas|data|datalist|details|figcaption|figure|footer|" +$/;"	v
+offsets	app/assets/javascripts/dragdrop.js	/^    var offsets = dropon.cumulativeOffset();$/;"	v
+offsets	public/javascripts/dragdrop.js	/^    var offsets = dropon.cumulativeOffset();$/;"	v
+oldCallbacks	app/assets/javascripts/jquery.js	/^var oldCallbacks = [],$/;"	v
+opt.complete	app/assets/javascripts/jquery.js	/^	opt.complete = function() {$/;"	f
+options.type	app/assets/javascripts/jquery_ujs.js	/^          type: method || 'GET', data: data, dataType: dataType,$/;"	p
+options.xhrFields.withCredentials	app/assets/javascripts/jquery_ujs.js	/^            withCredentials: withCredentials$/;"	p
+options_for_draggable.quiet	app/assets/javascripts/dragdrop.js	/^      quiet:       options.quiet,$/;"	p
+options_for_draggable.quiet	public/javascripts/dragdrop.js	/^      quiet:       options.quiet,$/;"	p
+options_for_draggable.revert	app/assets/javascripts/dragdrop.js	/^      revert:      true,$/;"	p
+options_for_draggable.revert	public/javascripts/dragdrop.js	/^      revert:      true,$/;"	p
+options_for_droppable.overlap	app/assets/javascripts/dragdrop.js	/^      overlap:     options.overlap,$/;"	p
+options_for_droppable.overlap	public/javascripts/dragdrop.js	/^      overlap:     options.overlap,$/;"	p
+options_for_tree.onHover	app/assets/javascripts/dragdrop.js	/^      onHover:      Sortable.onEmptyHover,$/;"	p
+options_for_tree.onHover	public/javascripts/dragdrop.js	/^      onHover:      Sortable.onEmptyHover,$/;"	p
+partial	app/assets/javascripts/prototype.js	/^        var partial = [];$/;"	v
+partial	public/javascripts/prototype.js	/^        var partial = [];$/;"	v
+password=	app/models/user.rb	/^  def password=(password)$/;"	f	class:User
+password_must_be_present	app/models/user.rb	/^    def password_must_be_present$/;"	f	class:User
+pointer	app/assets/javascripts/dragdrop.js	/^    var pointer = [Event.pointerX(event), Event.pointerY(event)];$/;"	v
+pointer	public/javascripts/dragdrop.js	/^    var pointer = [Event.pointerX(event), Event.pointerY(event)];$/;"	v
+position	app/assets/javascripts/jquery.js	/^	cssShow = { position: "absolute", visibility: "hidden", display: "block" },$/;"	p
+propFilter	app/assets/javascripts/jquery.js	/^function propFilter( props, specialEasing ) {$/;"	f
+r20	app/assets/javascripts/jquery.js	/^var r20 = \/%20\/g,$/;"	v
+rails	app/assets/javascripts/jquery_ujs.js	/^  var rails;$/;"	v
+restoreScript	app/assets/javascripts/jquery.js	/^function restoreScript( elem ) {$/;"	f
+return	app/assets/javascripts/jquery.js	/^	return new Tween.prototype.init( elem, options, prop, end, easing );$/;"	c
+return.init	app/assets/javascripts/jquery.js	/^	return new Tween.prototype.init( elem, options, prop, end, easing );$/;"	m
+rgba	app/assets/javascripts/jquery.color.js	/^		rgba: {$/;"	p
+root.children	app/assets/javascripts/dragdrop.js	/^      children: [],$/;"	p
+root.children	public/javascripts/dragdrop.js	/^      children: [],$/;"	p
+root.id	app/assets/javascripts/dragdrop.js	/^      id: null,$/;"	p
+root.id	public/javascripts/dragdrop.js	/^      id: null,$/;"	p
+root.parent	app/assets/javascripts/dragdrop.js	/^      parent: null,$/;"	p
+root.parent	public/javascripts/dragdrop.js	/^      parent: null,$/;"	p
+s	app/assets/javascripts/dragdrop.js	/^    var s = Sortable.sortables[element.id];$/;"	v
+s	public/javascripts/dragdrop.js	/^    var s = Sortable.sortables[element.id];$/;"	v
+setGlobalEval	app/assets/javascripts/jquery.js	/^function setGlobalEval( elems, refElements ) {$/;"	f
+setPositiveNumber	app/assets/javascripts/jquery.js	/^function setPositiveNumber( elem, value, subtract ) {$/;"	f
+show	app/controllers/carts_controller.rb	/^  def show$/;"	f	class:CartsController
+show	app/controllers/line_items_controller.rb	/^  def show$/;"	f	class:LineItemsController
+show	app/controllers/orders_controller.rb	/^  def show$/;"	f	class:OrdersController
+show	app/controllers/products_controller.rb	/^  def show$/;"	f	class:ProductsController
+show	app/controllers/users_controller.rb	/^  def show$/;"	f	class:UsersController
+showHide	app/assets/javascripts/jquery.js	/^function showHide( elements, show ) {$/;"	f
+sibling	app/assets/javascripts/jquery.js	/^function sibling( cur, dir ) {$/;"	f
+spaces.hsla.from	app/assets/javascripts/jquery.color.js	/^spaces.hsla.from = function ( hsla ) {$/;"	f
+spaces.hsla.to	app/assets/javascripts/jquery.color.js	/^spaces.hsla.to = function ( rgba ) {$/;"	f
+stringParse	app/assets/javascripts/jquery.color.js	/^function stringParse( string ) {$/;"	f
+stringify	app/assets/javascripts/prototype.js	/^  function stringify(object) {$/;"	f
+stringify	public/javascripts/prototype.js	/^  function stringify(object) {$/;"	f
+test_homepage	test/performance/browsing_test.rb	/^  def test_homepage$/;"	f	class:BrowsingTest
+toHTML	app/assets/javascripts/prototype.js	/^  function toHTML(object) {$/;"	f
+toHTML	public/javascripts/prototype.js	/^  function toHTML(object) {$/;"	f
+toJSON	app/assets/javascripts/prototype.js	/^  function toJSON(value) {$/;"	f
+toJSON	public/javascripts/prototype.js	/^  function toJSON(value) {$/;"	f
+toQueryString	app/assets/javascripts/prototype.js	/^  function toQueryString(object) {$/;"	f
+toQueryString	public/javascripts/prototype.js	/^  function toQueryString(object) {$/;"	f
+total_items	app/models/cart.rb	/^  def total_items$/;"	f	class:Cart
+total_price	app/models/cart.rb	/^  def total_price$/;"	f	class:Cart
+total_price	app/models/line_item.rb	/^  def total_price$/;"	f	class:LineItem
+up	db/migrate/20130406070419_combine_items_in_cart.rb	/^  def up$/;"	f	class:CombineItemsInCart
+update	app/controllers/carts_controller.rb	/^  def update$/;"	f	class:CartsController
+update	app/controllers/line_items_controller.rb	/^  def update$/;"	f	class:LineItemsController
+update	app/controllers/orders_controller.rb	/^  def update$/;"	f	class:OrdersController
+update	app/controllers/products_controller.rb	/^  def update$/;"	f	class:ProductsController
+update	app/controllers/users_controller.rb	/^  def update$/;"	f	class:UsersController
+values	app/assets/javascripts/prototype.js	/^  function values(object) {$/;"	f
+values	public/javascripts/prototype.js	/^  function values(object) {$/;"	f
+var.Effect._elementDoesNotExistError	app/assets/javascripts/effects.js	/^  _elementDoesNotExistError: {$/;"	p
+var.Effect._elementDoesNotExistError	public/javascripts/effects.js	/^  _elementDoesNotExistError: {$/;"	p
+vendorPropName	app/assets/javascripts/jquery.js	/^function vendorPropName( style, name ) {$/;"	f
+visibility	app/assets/javascripts/jquery.js	/^	cssShow = { position: "absolute", visibility: "hidden", display: "block" },$/;"	p
+who_bought	app/controllers/products_controller.rb	/^  def who_bought$/;"	f	class:ProductsController
+winnow	app/assets/javascripts/jquery.js	/^function winnow( elements, qualifier, keep ) {$/;"	f
