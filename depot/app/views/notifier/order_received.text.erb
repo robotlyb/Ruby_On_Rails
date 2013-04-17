@@ -1,0 +1,5 @@
+Dear <%=@order.name %>
+You have ordered the following items:
+<%= render @order.line_items %>
+url: <%= @url %>
+Thank you for your order.
