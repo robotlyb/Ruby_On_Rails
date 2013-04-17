@@ -8,7 +8,7 @@ class Notifier < ActionMailer::Base
   #
   def order_received(order)
     @order = order
-    @url = products_url(host: 'localhost') 
+    @url = products_url(:host => 'localhost') 
     mail :to => "fjfanchenwu@163.com", :subject => "order"
   end
 

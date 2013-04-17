@@ -40,7 +40,7 @@ Depot::Application.configure do
     :address              => "smtp.gmail.com",
     :port                 => 587,
     :user_name            => 'kgtong1992',
-    :password             =>  "5591271fcw",
+    :password             =>  ENV['GMAIL'],
     :authentication       => 'plain',
     :enable_starttls_auto => true
   }
